@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap");
+
+:root {
+  --gradienteHeader: linear-gradient(270deg, #ee3efe 0%, #2e32fb 100%);
+  --gradienteHeaderShadow: 0 1px 0 0 #110038;
+  --btnFondo: #ee3efe;
+  --btnBorder: 1px solid #110038;
+  --btnHover: #ce36db;
+  --btnShadow: inset -1px -1px 0 0 #a72cb3, inset 1px 1px 0 0 #ffffff;
+  --btnDropdownFondo: #cccccc;
+  --btnDropdownHover: #2e32fb;
+  --fondoDropdown: #b4b4b4;
+
+  --fondoEncabezadoDivisor: #fffafe;
+  --bordeEncabezadoDivisor: 1px solid #2e32fb;
+  --boxShadowEncabezadoDivisor: inset -2px -2px 0 0 #e6dce4,
+    inset 2px 2px 0 0 #110038;
+  --fondoBtnRecomendados: #2e32fb;
+  --fondoBarraBusqueda: #b4b4b4;
+  --shadowBarraBusqueda: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Chakra Petch";
+}
+
+body {
+  background-color: #110038;
+}
+
+header .header {
+  background-image: var(--gradienteHeader);
+  box-shadow: var(--gradienteHeaderShadow);
+}
+
+.logoDark {
+  content: url("/Proyecto 2/Recursos/assets/gifOF_logo_dark.png");
+}
+
+.btn {
+  background: var(--btnFondo);
+  border: var(--btnBorder);
+  box-shadow: var(--btnShadow);
+  color: #fff;
+}
+
+.btn:hover {
+  background: var(--btnHover);
+}
+
+.botones .dropdown {
+  background: var(--fondoDropdown);
+
+  box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+.botones .dropdown button {
+  background: var(--btnDropdownFondo);
+  border: 1px solid #808080;
+  box-shadow: inset -1px -1px 0 0 #b4b4b4, inset 1px 1px 0 0 #ffffff;
+}
+
+.botones .dropdown button:hover {
+  background: var(--btnDropdownHover);
+  color: #fff;
+}
+
+.botones .misGifOs {
+  color: #fff;
+}
+
+.botones .misGifOs:hover {
+  border: 1px #fff dotted;
+}
+
+.busqueda .barraBusqueda .headerBarra {
+  background-image: var(--gradienteHeader);
+  box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+section.busqueda .barraBusqueda {
+  background: var(--fondoBarraBusqueda);
+}
+
+.btnInputRosa {
+  background: var(--btnFondo);
+  color: #fff;
+}
+
+.busqueda .barrabusqueda .inputBarra button.btnInput:disabled .lupaImg {
+  content: url("/Proyecto 2/Proyecto/img/Combined\ Shape.svg");
+}
+
+.busqueda .barrabusqueda .inputBarra button.btnInput:enabled .lupaImg {
+  content: url("/Proyecto 2/Proyecto/img/lupa_light.svg");
+}
+
+.lupaBlanca {
+  display: none;
+  content: url("/Proyecto 2/Proyecto/img/lupa_light.svg");
+}
+
+.busqueda .barraBusqueda .inputBarra button.btnInput {
+  background: #b4b4b4;
+  border: 1px solid #808080;
+  color: #8f8f8f;
+  box-shadow: inset -2px -2px 0 0 #8f8f8f, inset 2px 2px 0 0 #ffffff;
+}
+
+.busqueda .busquedaAfter {
+  background: var(--fondoDropdown);
+  box-shadow: var(--btnShadow);
+}
+
+.botonesAfter button.btnBusquedaAfter {
+  background: var(--btnDropdownFondo);
+}
+
+.encabezadoDivisor {
+  border: var(--bordeEncabezadoDivisor);
+}
+
+.sugerenciasImgContainer .cabeceraSugerencias {
+  background-image: var(--gradienteHeader);
+}
+
+.cajaImg button {
+  background: var(--fondoBtnRecomendados);
+}
+
+/*? Estilos capturas*/
+
+.alertaContainer {
+  background: var(--fondoDropdown);
+  border: var(--btnBorder);
+  box-shadow: var(--shadowBarraBusqueda);
+}
+
+.alertaHeader {
+  background-image: var(--gradienteHeader);
+  box-shadow: var(--btnShadow);
+}
+
+.alertaBotones button {
+  background: var(--btnDropdownFondo);
+  box-shadow: var(--btnShadow);
+}
+
+.alertaBotones button:last-child {
+  background: var(--btnFondo);
+  box-shadow: var(--btnShadow);
+  color: #fff;
+}
+
+/*? Mis Gifos*/
+
+.logoCapturas {
+  content: url("/Proyecto 2/Recursos/assets/gifOF_logo_dark.png");
+}
+
+/*? Capturas */
+
+.capturaContainer {
+  background: var(--fondoBarraBusqueda);
+}
+
+.btnCapturaImg {
+  content: url("/Proyecto 2/Recursos/assets/camera_light.svg");
+}
+
+.btnCaptura3,
+.btnCaptura4 {
+  background-color: #ff6161;
+}
+
+.btnCaptura3:hover,
+.btncaptura4:hover {
+  background-color: #ff4141;
+}
+
+.btnRepetirCaptura,
+.btnSubirGifo {
+  background: #110038;
+  color: #fff;
+}
+
+.btnRepetirCaptura:hover,
+.btnSubirGifo:hover {
+  border: 1px dotted #110038;
+  background: #110038;
+}

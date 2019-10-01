@@ -1,0 +1,186 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title></title>
+    <link id="ss1" rel="stylesheet" href="/Proyecto 2/Proyecto/css/style.css" />
+    <link id="darkTheme" rel="stylesheet" href="">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <p>
+          ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número
+          de visitas: 12.765.803
+        </p>
+      </div>
+    </header>
+    <section class="busqueda">
+      <div class="logoBotones">
+        <div class="logo">
+          <img
+            src="/Proyecto 2/Recursos/assets/gifOF_logo.png"
+            alt="gifOs logo"
+            class="logoDark"
+          />
+        </div>
+        <div class="botones">
+          <button class="btn crearGifOs" id="btnCrearGifos">Crear Guifos</button>
+          <button class="btn elegirTema">Elegir tema</button>
+          <button class="btn btnFlecha">
+            <img src="/Proyecto 2/Recursos/assets/dropdown.svg" alt="" />
+          </button>
+          <a href="misGifos.html" id="misGifos" class="misGifos"
+            ><span class="underline">M</span>is Guifos</a
+          >
+          <div class="dropdown" id="dropdown">
+            <button id="btnLightTheme"><span class="underline">S</span>ailor Day</button>
+            <button id="btnDarkTheme"><span class="underline">S</span>ailor Night</button>
+          </div>
+        </div>
+      </div>
+      <div class="barraBusqueda">
+        <div class="headerBarra"><p>Buscar</p></div>
+        <div class="inputBarra">
+          <input
+            type="text"
+            name=""
+            id="inputBusqueda"
+            class="input"
+            placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+          />
+          <button type="button" class="btnInput" id="btnInput">
+            <img id="lupaImg" class="lupaImg" src="/Proyecto 2/Recursos/assets/lupa_inactive.svg" alt="" />
+            <span>Buscar</span>
+          </button>
+        </div>
+      </div>
+      <div class="busquedaAfter" id="busquedaAfter">
+        <div class="botonesAfter">
+          <button class="btnBusquedaAfter">
+            <span> Resultado de la busqueda sugerido</span>
+          </button>
+          <button class="btnBusquedaAfter">
+            <span>Un resultado similar a tu busqueda</span>
+          </button>
+          <button class="btnBusquedaAfter">
+            <span>Y otro mas</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section class="sugerencias" id="sugerencias">
+      <div class="teSugerimosContainer">
+        <div class="encabezadoDivisor">
+          <span>Hoy te sugerimos</span>
+        </div>
+      </div>
+      <div class="sugerenciasImgContainer">
+        <div class="cajaImg">
+          <div class="cabeceraSugerencias">
+            <span>#LaRosalia</span>
+            <img src="/Proyecto 2/Proyecto/img/button3.svg" alt="" />
+          </div>
+          <img
+            class="cajaImg-img"
+            src=""
+            id="gifSugerido0"
+          />
+          <button id="btnRosalia">Ver más...</button>
+        </div>
+
+        <div class="cajaImg">
+            <div class="cabeceraSugerencias">
+              <span>#Seinfeld</span>
+              <img src="/Proyecto 2/Proyecto/img/button3.svg"/>
+            </div>
+            <img
+              class="cajaImg-img"
+              id="gifSugerido1"
+              src=""/>
+            <button id="btnSeinfeld">Ver más...</button>
+          </div>
+
+          <div class="cajaImg">
+              <div class="cabeceraSugerencias">
+                <span>#AtlantaFX</span>
+                <img src="/Proyecto 2/Proyecto/img/button3.svg" />
+              </div>
+              <img
+                class="cajaImg-img"
+                src=""
+                id="gifSugerido2"
+              />
+              <button id="btnAtlanta">Ver más...</button>
+            </div>
+
+            <div class="cajaImg">
+                <div class="cabeceraSugerencias">
+                  <span>#TheOffice</span>
+                  <img src="/Proyecto 2/Proyecto/img/button3.svg" />
+                </div>
+                <img
+                  class="cajaImg-img"
+                  src=""
+                  id="gifSUgerido3"
+                />
+                <button id="btnTheOffice">Ver más...</button>
+              </div>
+            
+            </div>
+      </div>
+    </section>
+
+    <section class="tendencias" id="tendencias">
+      <div class="tendenciasContainer">
+        <div class="encabezadoDivisor"><span>Tendencias:</span></div>
+      </div>
+      <div class="resultadosTendencias" id="resultadosTendencias">
+        <img  id="gif0">
+        <img  id="gif1">
+        <img  id="gif2">
+        <img  id="gif3">
+        <img  id="gif4">
+        <img  id="gif5">
+        <img  id="gif6">
+        <img  id="gif7">
+        <img  id="gif8">
+        <img  id="gif9">
+        <img  id="gif10">
+        <img  id="gif11">
+      </div>
+    </section>
+    
+    <section class="resultadosBusqueda" id="resultadosBusqueda">
+      <div class="botonesResultados">
+        <button id="btnResultado1"><span class="traerInput">#Test123</span></button>
+        <button id="btnResultado2"><span>#OtroResultado</span></button>
+        <button id="btnResultado3"><span>#ResultadoSimilar</span></button>
+      <button id="btnInicio"><span>Inicio</span></button>
+      </div>
+    <div class="encabezadoDivisor"><span>Resultados de busqueda</span></div>
+    <div class="containerPrueba">
+    
+    <div class="resultadosBusquedaImg" id="resultadosBusquedaImg">
+      
+      <img id="gifs0">
+      <img id="gifs1">
+      <img id="gifs2">
+      <img id="gifs3">
+      <img id="gifs4">
+      <img id="gifs5">
+      <img id="gifs6">
+      <img id="gifs7">
+      <img id="gifs8">
+      <img id="gifs9">
+      <img id="gifs10">
+      <img id="gifs11">
+    </div>
+  </div>
+</section>
+
+    <script src="js/app.js"></script>
+    <script src=""></script>
+  </body>
+</html>
