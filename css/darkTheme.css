@@ -37,7 +37,7 @@ header .header {
 }
 
 .logoDark {
-  content: url("/Proyecto 2/Recursos/assets/gifOF_logo_dark.png");
+  content: url("/img/gifOF_logo_dark.png");
 }
 
 .btn {
@@ -91,16 +91,16 @@ section.busqueda .barraBusqueda {
 }
 
 .busqueda .barrabusqueda .inputBarra button.btnInput:disabled .lupaImg {
-  content: url("/Proyecto 2/Proyecto/img/Combined\ Shape.svg");
+  content: url("/img/Combined\ Shape.svg");
 }
 
 .busqueda .barrabusqueda .inputBarra button.btnInput:enabled .lupaImg {
-  content: url("/Proyecto 2/Proyecto/img/lupa_light.svg");
+  content: url("/img/lupa_light.svg");
 }
 
 .lupaBlanca {
   display: none;
-  content: url("/Proyecto 2/Proyecto/img/lupa_light.svg");
+  content: url("/img/lupa_light.svg");
 }
 
 .busqueda .barraBusqueda .inputBarra button.btnInput {

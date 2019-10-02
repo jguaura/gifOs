@@ -280,7 +280,7 @@ btnLightTheme.addEventListener('click', () => {
 })
 
 btnDarkTheme.addEventListener('click', () => {
-    darkTheme.setAttribute("href", "/Proyecto 2/Proyecto/css/darkTheme.css");
+    darkTheme.setAttribute("href", "/css/darkTheme.css");
     mostrarDropdown();
 })
 
